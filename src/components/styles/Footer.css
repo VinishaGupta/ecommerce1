@@ -1,0 +1,58 @@
+.footer {
+  /* ❌ remove this */
+  /* margin-top: 80px; */
+
+  padding: 40px 20px;
+
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Brand */
+.footer-brand {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Dancing Script", cursive;
+}
+
+.footer-tagline {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Links */
+.footer-links {
+  display: flex;
+  gap: 22px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+/* Social */
+.footer-social {
+  display: flex;
+  gap: 22px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* Bottom */
+.footer-bottom {
+  font-size: 13px;
+  color: #777;
+}
+
+.footer-brand {
+  font-family: "Dancing Script", cursive;
+  font-size: 28px;
+  font-weight: 700;
+}
